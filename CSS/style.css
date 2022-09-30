@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+
+body {
+	display: flex;
+}
+
+h2 {
+	margin-top: 70px;
+	color: white;
+}
+
+#container {
+	border: solid black 5px;
+	border-radius: 15px;
+   	background: rgb(94,188,210);
+	background: linear-gradient(0deg, rgba(94,188,210,1) 0%, rgba(93,93,93,1) 75%);
+    width: 23.5%;
+    height: 1025px;
+    padding-left: 65px;
+}
+
+#container2 {
+	border: solid black 5px;
+	border-radius: 15px;
+    width: 30%;
+    height: 1025px;
+    padding-left: 65px;
+}
+
+#container2 hr {
+    width: 58%;
+    transform: translate(186px, -24px);
+    border: solid #2C8598 2px;
+    border-radius: 5px;
+}
+
+#education, #experience, #skills, #hobbies {
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 21px;
+    margin-left: -9%;
+    color: white;
+    background: #2C8598;
+    border-radius: 35px;
+    padding-left: 62px;
+    width: 48%;
+    padding-top: 11px;
+    height: 47px;
+}
+
+#jobTitle {
+	font-size: 14.48px;
+	font-weight: 500;
+	margin-left: 100px;
+	margin-top: 15px;
+	color: white;
+}
+
+#nameTitle {
+	font-size: 36px;
+	font-weight: 700;
+	margin-left: 50px;
+	padding-top: 25px;
+	color: white;
+}
+
+.aboutMe {
+	font-weight: bolder;
+	margin-left: 20px;
+	margin-top: 75px;
+	color: white;
+}
+
+.button1, .button2, .button3, .button4 {
+	margin-left: 30px;
+	margin-top: 50px;
+	width: 245px;
+	border-radius: 15px;
+	height: 40px;
+	background: grey;
+}
+.circlePicture {
+	display: flex;
+	width: 150px;
+	background: white;
+	border-radius: 50%;
+	height: 150px;
+	margin-left: 75px;
+	margin-top: -300px;
+}
+
+.circlePicture p {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 125px;
+	color: black;
+	margin-left: 25px;
+}
+
+.formationName {
+	font-weight: bold;
+	margin-top: 20px;
+	font-size: 14px;
+	color: black;
+}
+
+.infoSchool p, .infoExperience p {
+	color: #2C8598;
+	margin-top: 5px;
+}
+
+.descriptionPost {
+	color: #847D7D!important;
+	margin-top: 10px;
+	font-weight: 300!important;
+}
+
+.espace {
+	margin-top: 40px;
+}
+
+.espace2 {
+	margin-top: 135px;
+}
+
+.infoExperience {
+	margin-top: 50px;
+}
+
+.infoExperience p {
+	margin-top: 10px;
+}
+
+.frame {
+    width: 395px;
+    border: solid white 1.5px;
+    border-radius: 25px;
+    height: 221px;
+    margin-top: 100px;
+    background: #86929a;
+    margin-left: -45px;
+}
+
+.languages {
+	margin-top: 20px;
+}
+
+
+.logo img {
+    width: 7%;
+    margin-left: -15%;
+    margin-right: 8%;
+}
+
+.lv {
+	margin-top: 5px;
+	color: white;
+	font-weight: 300;
+}
+
+.imgLanguage img {
+    width: 4.5%;
+    margin-left: 35px;
+    margin-right: -25px;
+    transform: translate(65px, -20px);
+}
+
+.textDescription {
+	margin-top: 12px;
+	margin-left: 20px;
+	color: white;
+	font-weight: 100;
+}
+
+.selectButton {
+	padding-top: 175px;
+}
+
+.selectButton p {
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-top: 12px;
+    color: white;
+    font-weight: 300;
+}
+
+.basket {
+	transform: translate(95px, 10px)!important;
+}
+
+.books {
+	transform: translate(110px, 10px)!important;
+}
+
+.hiking {
+	transform: translate(80px, 10px)!important;
+}
+
+.hobbiesFlex {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -120px;
+}
+
+.hobbiesFlex img {
+    width: 18px;
+    height: 20px;
+    margin-top: -5px;
+}
+
+.hobbiesFlex p {
+    margin-top: 35px;
+    margin-left: 38px;
+    font-weight: 300;
+    color: #86929a;
+    margin-right: 0px;
+}
+
+.il {
+    width: 25%;
+    transform: translate(80px, 0px);
+    margin-bottom: 50px;
+}
+
+
+.inDesign {
+    width: 25%;
+    transform: translate(208px, -65px);
+    margin-bottom: -93px;
+}
+
+.music {
+	transform: translate(95px, 10px)!important;
+}
+
+.ps {
+    width: 25%;
+    transform: translate(-25px, 0px);
+    margin-bottom: 50px;
+}
+
+.xd {
+    width: 25%;
+    transform: translate(-292px, 94px);
+    margin-bottom: 50px;
+}
